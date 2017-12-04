@@ -17,3 +17,7 @@ The library does not (yet) support:
 - Auto send data
 
 Note: the file stm3232hpmlib.c includes the STM32 HAL header file for the specific microcontroller model, and this should be updated as necessary.
+
+Use
+
+Call hpmSetUart() with a handle to the UART peripheral to use.
